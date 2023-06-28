@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Application</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>This is the home section.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is the about section.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>This is the projects section.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form method="post" action="contact.php">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</body>
+</html>
